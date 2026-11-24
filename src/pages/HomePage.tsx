@@ -12,8 +12,6 @@ export default function HomePage() {
     <>
       <LoaderPanelFlick
         images={[
-          "https://storage.googleapis.com/webild/users/user_3MYc6vZLHrdO2bfWioqVFT1Pras/uploaded-1795533020849-2embiexd.png",
-          "https://storage.googleapis.com/webild/users/user_3MYc6vZLHrdO2bfWioqVFT1Pras/uploaded-1795533020844-6k50qq69.png",
           "https://img.b2bpic.net/free-photo/fish-chips_74190-3677.jpg",
           "https://img.b2bpic.net/free-photo/clay-plate-delicious-shrimps-with-sliced-lemon-onion-stone-surface_114579-57069.jpg",
           "https://img.b2bpic.net/free-photo/top-view-grilled-shrimp-skewers-with-carrots-tomato-herbs-sauce-stand_141793-14315.jpg"
@@ -26,8 +24,8 @@ export default function HomePage() {
         <HeroWordmarkWindow
           title="Harbor Inn"
           description="Traditional seafood platters and crispy fried fish in Burlington."
-          imageSrc="https://storage.googleapis.com/webild/users/user_3MYc6vZLHrdO2bfWioqVFT1Pras/uploaded-1795533020844-6k50qq69.png"
-          imageAlt="Harbor Inn exterior with iconic shark entrance in Burlington"
+          imageSrc="https://storage.googleapis.com/webild/users/user_3MYc6vZLHrdO2bfWioqVFT1Pras/uploaded-1795533020849-2embiexd.png?_wi=3"
+          imageAlt="Harbor Inn Seafood Restaurant Sign in Burlington"
           leftLabel="/Serving Burlington"
           rightLabel="/Scroll down"
           marquee={[
