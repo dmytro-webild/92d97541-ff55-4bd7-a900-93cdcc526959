@@ -24,7 +24,7 @@ export default function HomePage() {
         <HeroWordmarkWindow
           title="Harbor Inn"
           description="Traditional seafood platters and crispy fried fish in Burlington."
-          imageSrc="https://storage.googleapis.com/webild/users/user_3MYc6vZLHrdO2bfWioqVFT1Pras/uploaded-1795533020849-2embiexd.png?_wi=3"
+          imageSrc="https://storage.googleapis.com/webild/users/user_3MYc6vZLHrdO2bfWioqVFT1Pras/uploaded-1795533880846-8fk1b44d.png?_wi=3"
           imageAlt="Harbor Inn Seafood Restaurant Sign in Burlington"
           leftLabel="/Serving Burlington"
           rightLabel="/Scroll down"
@@ -262,7 +262,7 @@ export default function HomePage() {
             "2408 S Church St, Burlington, NC 27215",
             "Open daily from 11 AM"
           ]}
-          imageSrc="https://storage.googleapis.com/webild/users/user_3MYc6vZLHrdO2bfWioqVFT1Pras/uploaded-1795533020849-2embiexd.png?_wi=2"
+          imageSrc="https://storage.googleapis.com/webild/users/user_3MYc6vZLHrdO2bfWioqVFT1Pras/uploaded-1795533880846-8fk1b44d.png?_wi=2"
           imageAlt="Harbor Inn Seafood Restaurant Sign in Burlington"
           stickerText="family dining"
           labels={{
