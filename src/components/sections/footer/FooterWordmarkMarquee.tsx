@@ -33,7 +33,6 @@ const DEFAULT_COLUMNS: FooterColumn[] = [
   { title: "Address", items: [{ label: "1824 West Division St, Chicago" }, { label: "Directions", href: "#" }] },
   { title: "Hours", items: [{ label: "8 AM to 4 PM" }, { label: "Every day of the week" }] },
   { title: "Contact", items: [{ label: "+1 773 555 0192", href: "tel:+17735550192" }, { label: "hello@crumbandbutter.com", href: "mailto:hello@crumbandbutter.com" }] },
-  { title: "Socials", items: [{ label: "Instagram", href: "#" }, { label: "TikTok", href: "#" }, { label: "Facebook", href: "#" }] },
   { title: "Pages", items: [{ label: "Menu", href: "#" }, { label: "Events", href: "#" }, { label: "Workshops", href: "#" }, { label: "Reserve a table", href: "#" }] },
 ];
 
@@ -45,9 +44,9 @@ const FooterWordmarkMarquee = ({
   emailPlaceholder = "you@email.com",
   submitText = "Submit",
   successText = "You are on the list",
-  imageSrc = "https://images.pexels.com/photos/1410235/pexels-photo-1410235.jpeg?auto=compress&cs=tinysrgb&w=1200",
-  imageAlt = "Green bowl with soft eggs",
-  caption = "/Your next bite is here",
+  imageSrc,
+  imageAlt,
+  caption,
   columns = DEFAULT_COLUMNS,
   copyright = "All rights reserved",
   credit = "Made with Webild",
