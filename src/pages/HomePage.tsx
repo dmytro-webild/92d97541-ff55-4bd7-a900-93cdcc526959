@@ -253,9 +253,9 @@ export default function HomePage() {
 
       <div id="contact-reserve-form" data-webild-section="ContactReserveForm" data-webild-section-id="ContactReserveForm-1" data-section="contact-reserve-form">
         <ContactReserveForm
-          label="Visit Us"
-          title="Reserve your table"
-          description="Request a table for family dining or call (336) 228-1995 for orders and questions."
+          label=""
+          title=""
+          description=""
           submitText="Request table"
           successText="Thank you, we will confirm your table shortly."
           details={[
@@ -264,7 +264,7 @@ export default function HomePage() {
           ]}
           stickerText="family dining"
           labels={{
-            name: "Name",
+            name: "",
             email: "Email",
             date: "Date",
             guests: "Guests",
