@@ -8,8 +8,6 @@ export default function Layout() {
       <header data-webild-section="Header">
         <NavbarSlashLinks
           brand="Harbor Inn"
-          logoSrc="https://storage.googleapis.com/webild/users/user_3MYc6vZLHrdO2bfWioqVFT1Pras/uploaded-1795533020849-2embiexd.png"
-          logoAlt="Harbor Inn Seafood Restaurant Sign"
           navItems={[
             {
               name: "Menu",
