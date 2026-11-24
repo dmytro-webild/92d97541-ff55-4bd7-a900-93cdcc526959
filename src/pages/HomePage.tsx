@@ -84,7 +84,7 @@ export default function HomePage() {
             {
               name: "Seafood Platter",
               price: "$20",
-              imageSrc: "https://img.b2bpic.net/free-photo/flat-lay-delicious-seafood-composition_23-2148926787.jpg",
+              imageSrc: "https://img.b2bpic.net/free-photo/flat-lay-delicious-seafood-composition_23-2148926787.jpg?_wi=1",
               imageAlt: "composition of fresh seafood"
             }
           ]}

@@ -48,7 +48,7 @@ export default function Layout() {
           emailLabel="Email*"
           emailPlaceholder="info@harborinnburlington.com"
           submitText="Join"
-          imageSrc="https://img.b2bpic.net/free-photo/flat-lay-delicious-seafood-composition_23-2148926787.jpg"
+          imageSrc="https://img.b2bpic.net/free-photo/flat-lay-delicious-seafood-composition_23-2148926787.jpg?_wi=2"
           imageAlt="Fresh seafood assortment prepared at Harbor Inn"
           caption="/Traditional coastal dining in Burlington"
           columns={[
