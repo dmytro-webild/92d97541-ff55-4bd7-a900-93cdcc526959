@@ -8,6 +8,8 @@ export default function Layout() {
       <header data-webild-section="Header">
         <NavbarSlashLinks
           brand="Harbor Inn"
+          logoSrc="https://storage.googleapis.com/webild/users/user_3MYc6vZLHrdO2bfWioqVFT1Pras/uploaded-1795533020849-2embiexd.png"
+          logoAlt="Harbor Inn Seafood Restaurant Sign"
           navItems={[
             {
               name: "Menu",
@@ -48,9 +50,9 @@ export default function Layout() {
           emailLabel="Email*"
           emailPlaceholder="info@harborinnburlington.com"
           submitText="Join"
-          imageSrc="https://img.b2bpic.net/free-photo/flat-lay-delicious-seafood-composition_23-2148926787.jpg?_wi=2"
-          imageAlt="Fresh seafood assortment prepared at Harbor Inn"
-          caption="/Traditional coastal dining in Burlington"
+          imageSrc="https://storage.googleapis.com/webild/users/user_3MYc6vZLHrdO2bfWioqVFT1Pras/uploaded-1795533020849-2embiexd.png"
+          imageAlt="Harbor Inn Seafood Restaurant Sign"
+          caption="/Harbor Inn Seafood Restaurant in Burlington"
           columns={[
             {
               title: "Address",

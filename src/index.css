@@ -10,15 +10,15 @@
 
 /* webild:theme-ai */
 :root {
-  --primary-cta: #2f5a2a;
-  --primary-cta-text: #f3f4e8;
-  --secondary-cta: #e4e8d2;
-  --secondary-cta-text: #2f5a2a;
-  --background-accent: #e4e8d2;
+  --primary-cta: #1d4ed8;
+  --primary-cta-text: #ffffff;
+  --secondary-cta: #dbeafe;
+  --secondary-cta-text: #1e40af;
+  --background-accent: #dbeafe;
 
-  --background: #f3f4e8;
-  --foreground: #2f5a2a;
-  --card: #eef0d8;
+  --background: #f4f8fc;
+  --foreground: #0f2b48;
+  --card: #e8f1f9;
   --card-foreground: var(--foreground);
   --popover: var(--card);
   --popover-foreground: var(--foreground);
@@ -26,22 +26,22 @@
   --primary-foreground: var(--primary-cta-text);
   --secondary: var(--secondary-cta);
   --secondary-foreground: var(--secondary-cta-text);
-  --muted: #e6e8dc;
-  --muted-foreground: #4a6c44;
+  --muted: #e2edf8;
+  --muted-foreground: #3b6998;
   --accent: var(--background-accent);
-  --accent-foreground: #2f5a2a;
-  --deep: #16261a;
-  --brand: #2f5a2a;
-  --sand: #e4e8d2;
-  --deep-foreground: #f3f4e8;
-  --destructive: #ad0000;
-  --destructive-foreground: #f8f5e9;
-  --border: #dfe3cd;
-  --input: #2f5a2a;
+  --accent-foreground: #0f2b48;
+  --deep: #091e36;
+  --brand: #1d4ed8;
+  --sand: #dbeafe;
+  --deep-foreground: #f0f7ff;
+  --destructive: #dc2626;
+  --destructive-foreground: #fef2f2;
+  --border: #cbdcf0;
+  --input: #1d4ed8;
   --ring: var(--primary-cta);
-  --tint-1: #eef0d8;
-  --tint-2: #e8ecd8;
-  --tint-3: #e6e8dc;
+  --tint-1: #e8f1f9;
+  --tint-2: #dde9f5;
+  --tint-3: #d2e2f1;
 
   --font-heading: "Instrument Serif", Georgia, "Times New Roman", serif;
   --font-body: "Manrope", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -296,16 +296,16 @@
 [data-tone="deep"] {
   --background: var(--deep);
   --foreground: var(--deep-foreground);
-  --card: #eef0d8;
+  --card: #153253;
   --card-foreground: var(--deep-foreground);
   --primary: var(--deep-foreground);
   --primary-foreground: var(--deep);
-  --secondary: #e4e8d2;
+  --secondary: #1e40af;
   --secondary-foreground: var(--deep-foreground);
-  --muted: #e6e8dc;
-  --muted-foreground: #4a6c44;
-  --border: #dfe3cd;
-  --input: #2f5a2a;
+  --muted: #1e3a5f;
+  --muted-foreground: #93c5fd;
+  --border: #1e3a5f;
+  --input: #1d4ed8;
   --ring: var(--deep-foreground);
   background-color: var(--background);
   color: var(--foreground);
