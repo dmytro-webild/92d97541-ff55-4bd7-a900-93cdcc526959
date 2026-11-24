@@ -262,8 +262,6 @@ export default function HomePage() {
             "2408 S Church St, Burlington, NC 27215",
             "Open daily from 11 AM"
           ]}
-          imageSrc="https://storage.googleapis.com/webild/users/user_3MYc6vZLHrdO2bfWioqVFT1Pras/uploaded-1795533880846-8fk1b44d.png?_wi=2"
-          imageAlt="Harbor Inn Seafood Restaurant Sign in Burlington"
           stickerText="family dining"
           labels={{
             name: "Name",
