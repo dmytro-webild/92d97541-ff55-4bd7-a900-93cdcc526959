@@ -27,12 +27,12 @@ export default function Layout() {
             },
             {
               name: "Contact",
-              href: "#contact-reserve-form"
+              href: "#footer"
             }
           ]}
           primaryButton={{
             text: "Visit Us",
-            href: "#contact-reserve-form"
+            href: "#footer"
           }}
           introDelay={3}
         />
@@ -102,7 +102,7 @@ export default function Layout() {
                 },
                 {
                   label: "Location & Hours",
-                  href: "#contact-reserve-form"
+                  href: "#footer"
                 }
               ]
             }
