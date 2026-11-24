@@ -92,7 +92,7 @@ export default function Layout() {
               title: "Socials",
               items: [
                 {
-                  label: "Facebook",
+                  label: "k",
                   href: "#"
                 },
                 {
