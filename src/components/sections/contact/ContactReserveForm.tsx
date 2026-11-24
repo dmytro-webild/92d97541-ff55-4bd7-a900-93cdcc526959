@@ -35,7 +35,7 @@ const ContactReserveForm = ({
   submitText = "Send request",
   successText = "Thanks, we will confirm by email",
   details = ["1824 West Division St, Chicago", "Every day, 8 AM to 4 PM"],
-  imageSrc = "https://images.pexels.com/photos/1080696/pexels-photo-1080696.jpeg?auto=compress&cs=tinysrgb&w=1600",
+  imageSrc,
   imageAlt = "Dining room with tall windows",
   stickerText = "say hello",
   ariaLabel,
@@ -61,7 +61,7 @@ const ContactReserveForm = ({
 
   return (
     <section aria-label={ariaLabel ?? title} className={cn("relative bg-background py-[var(--section-space)] text-foreground", className)}>
-      <div className="mx-auto grid w-[var(--container)] grid-cols-1 gap-[clamp(2.5rem,5vw,5rem)] lg:grid-cols-2 lg:items-stretch">
+      <div className={cn("mx-auto grid w-[var(--container)] grid-cols-1 gap-[clamp(2.5rem,5vw,5rem)]", imageSrc ? "lg:grid-cols-2 lg:items-stretch" : "max-w-3xl")}>
         <div className="flex flex-col">
           {label && <p className="mb-4 font-mono text-[length:var(--text-label)] uppercase tracking-[var(--label-tracking)]">{label}</p>}
           <SnellenbergWordRise tag="h2" text={title} className="text-balance text-[length:var(--text-h1)]" />
@@ -115,12 +115,14 @@ const ContactReserveForm = ({
             </div>
           )}
         </div>
-        <div ref={photoRef} className="relative min-h-[26rem] lg:min-h-[36rem]">
-          <motion.div style={{ clipPath: reduce ? undefined : clipPath }} className="absolute inset-0">
-            <ImageScrollParallax imageSrc={imageSrc} imageAlt={imageAlt} strength={0.18} className="aspect-auto size-full rounded-[var(--radius-image)]" />
-          </motion.div>
-          <ToastedSticker text={stickerText} glyph="heart" className="absolute -left-4 -top-6 size-24 lg:-left-10 lg:size-32" />
-        </div>
+        {imageSrc && (
+          <div ref={photoRef} className="relative min-h-[26rem] lg:min-h-[36rem]">
+            <motion.div style={{ clipPath: reduce ? undefined : clipPath }} className="absolute inset-0">
+              <ImageScrollParallax imageSrc={imageSrc} imageAlt={imageAlt} strength={0.18} className="aspect-auto size-full rounded-[var(--radius-image)]" />
+            </motion.div>
+            <ToastedSticker text={stickerText} glyph="heart" className="absolute -left-4 -top-6 size-24 lg:-left-10 lg:size-32" />
+          </div>
+        )}
       </div>
     </section>
   );
