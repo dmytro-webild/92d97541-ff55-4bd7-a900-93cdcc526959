@@ -48,9 +48,6 @@ export default function Layout() {
           emailLabel="Email*"
           emailPlaceholder="info@harborinnburlington.com"
           submitText="Join"
-          imageSrc="https://storage.googleapis.com/webild/users/user_3MYc6vZLHrdO2bfWioqVFT1Pras/uploaded-1795533020849-2embiexd.png?_wi=1"
-          imageAlt="Harbor Inn Seafood Restaurant Sign"
-          caption="/Harbor Inn Seafood Restaurant in Burlington"
           columns={[
             {
               title: "Address",
@@ -85,23 +82,6 @@ export default function Layout() {
                 {
                   label: "info@harborinnburlington.com",
                   href: "mailto:info@harborinnburlington.com"
-                }
-              ]
-            },
-            {
-              title: "Socials",
-              items: [
-                {
-                  label: "k",
-                  href: "#"
-                },
-                {
-                  label: "Instagram",
-                  href: "#"
-                },
-                {
-                  label: "Yelp",
-                  href: "#"
                 }
               ]
             },
