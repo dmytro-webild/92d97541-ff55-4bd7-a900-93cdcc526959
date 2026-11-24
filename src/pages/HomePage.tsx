@@ -4,7 +4,6 @@ import PricingWorkshopTickets from "@/components/sections/pricing/PricingWorksho
 import MetricsStickerBand from "@/components/sections/metrics/MetricsStickerBand";
 import TestimonialVideoCoverflow from "@/components/sections/testimonial/TestimonialVideoCoverflow";
 import FaqSlashList from "@/components/sections/faq/FaqSlashList";
-import ContactReserveForm from "@/components/sections/contact/ContactReserveForm";
 import LoaderPanelFlick from "@/components/loaders/LoaderPanelFlick";
 
 export default function HomePage() {
@@ -88,7 +87,7 @@ export default function HomePage() {
           ]}
           button={{
             text: "Visit Harbor Inn",
-            href: "#contact-reserve-form"
+            href: "#footer"
           }}
         />
       </div>
@@ -112,7 +111,7 @@ export default function HomePage() {
               ],
               cta: {
                 text: "View Details",
-                href: "#contact-reserve-form"
+                href: "#footer"
               }
             },
             {
@@ -127,7 +126,7 @@ export default function HomePage() {
               ],
               cta: {
                 text: "Visit Us Today",
-                href: "#contact-reserve-form"
+                href: "#footer"
               },
               featured: true
             },
@@ -143,7 +142,7 @@ export default function HomePage() {
               ],
               cta: {
                 text: "View Details",
-                href: "#contact-reserve-form"
+                href: "#footer"
               }
             }
           ]}
@@ -248,28 +247,6 @@ export default function HomePage() {
               description: "Most meals run between $10 and $20 per guest, offering generous family-friendly portions."
             }
           ]}
-        />
-      </div>
-
-      <div id="contact-reserve-form" data-webild-section="ContactReserveForm" data-webild-section-id="ContactReserveForm-1" data-section="contact-reserve-form">
-        <ContactReserveForm
-          label=""
-          title=""
-          description=""
-          submitText="Request table"
-          successText="Thank you, we will confirm your table shortly."
-          details={[
-            "2408 S Church St, Burlington, NC 27215",
-            "Open daily from 11 AM"
-          ]}
-          stickerText="family dining"
-          labels={{
-            name: "",
-            email: "Email",
-            date: "Date",
-            guests: "Guests",
-            note: "Note"
-          }}
         />
       </div>
     </>
